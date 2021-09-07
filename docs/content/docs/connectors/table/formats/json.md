@@ -54,8 +54,8 @@ CREATE TABLE user_behavior (
  'properties.bootstrap.servers' = 'localhost:9092',
  'properties.group.id' = 'testGroup',
  'format' = 'json',
- 'json.fail-on-missing-field' = 'false',
- 'json.ignore-parse-errors' = 'true'
+ 'format.fail-on-missing-field' = 'false',
+ 'format.ignore-parse-errors' = 'true'
 )
 ```
 
